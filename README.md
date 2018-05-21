@@ -22,3 +22,7 @@ I use Realtek's kext for sounds, you can grab it here [link](https://bitbucket.o
 Graphics drivers, I use NVIDIA so NVIDIA web drivers will do it for me, you can grab it here [link](https://www.insanelymac.com/forum/topic/324195-nvidia-web-driver-updates-for-macos-high-sierra-update-04252018/) <br />
 
 ## That's it for now, I will update this repository if there are any future changes.
+
+## Installation preview, Clover bootloader <br />
+
+[img1](https://raw.githubusercontent.com/Vixtron/hackintosh/master/clover1.png)
