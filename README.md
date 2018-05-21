@@ -25,4 +25,4 @@ Graphics drivers, I use NVIDIA so NVIDIA web drivers will do it for me, you can 
 
 ## Installation preview, Clover bootloader <br />
 
-[img1](https://raw.githubusercontent.com/Vixtron/hackintosh/master/clover1.png)
+![img1](https://raw.githubusercontent.com/Vixtron/hackintosh/master/clover1.png)
