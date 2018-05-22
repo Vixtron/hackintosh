@@ -26,3 +26,5 @@ That's it for now, I will update this repository if there are any future changes
 ## Installation preview, Clover bootloader <br />
 
 ![img1](https://raw.githubusercontent.com/Vixtron/hackintosh/master/clover1.png)
+
+![img2](https://raw.githubusercontent.com/Vixtron/hackintosh/master/clover2.png)
