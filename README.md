@@ -3,7 +3,10 @@
 1. Run the VM, find a working tutorial and grab the VMWare image, download the app for macOS from the App Store.
 2. Partition your flashdrive using disk utility and use the GUID partition map. 
 3. Mount your flashrive `diskutil mount diskXsY`
-4. Run the following to flash the macOS image to your flashdrive `sudo "/Applications/Install macOS your macos.app/Contents/Resources/createinstallmedia" --volume  /Volumes/USB --applicationpath "/Applications/Install macOS your macos.app" --nointeraction`
+4. Run the following to flash the macOS image to your flashdrive <br />
+```
+sudo "/Applications/Install macOS your macos.app/Contents/Resources/createinstallmedia" --volume  /Volumes/USB --applicationpath "/Applications/Install macOS your macos.app" --nointeraction
+```
 5. Mount the EFI partition `diskutil mount diskXsY`
 6. Grab a working Clover bootloader and install it to your EFI partition, use the following configuration <br />
 ```
