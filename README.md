@@ -17,8 +17,8 @@ Drivers64UEFI
 8. Reboot.
 
 ## Additional
-Get your kexts for sounds, graphics drivers. <br />
-I use Realtek's kext for sounds, you can grab it here [link](https://bitbucket.org/RehabMan/os-x-realtek-network/downloads/) and extract it to `EFI/Clover/Kexts/Other` on your macOS hard drive/SSD. <br />
+Get your kexts for network, graphics drivers. <br />
+I use Realtek's kext for network, you can grab it here [link](https://bitbucket.org/RehabMan/os-x-realtek-network/downloads/) and extract it to `EFI/Clover/Kexts/Other` on your macOS hard drive/SSD. <br />
 Graphics drivers, I use NVIDIA so NVIDIA web drivers will do it for me, you can grab it here [link](https://www.insanelymac.com/forum/topic/324195-nvidia-web-driver-updates-for-macos-high-sierra-update-04252018/) <br />
 
 That's it for now, I will update this repository if there are any future changes.
