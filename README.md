@@ -10,8 +10,8 @@
 Install Clover for UEFI booting only
 Install Clover to the ESP
 Drivers64UEFI
-    OsxAptioFix2Drv-64
-    PartitionDxe-64
+    AptioMemoryFix
+    Fat-64
 ```
 7. Grab a [FakeSMC](https://github.com/kozlek/HWSensors/releases) binary, run it and extract FakeSMC.kext somewhere and move it to `EFI/Clover/Kexts/Other`
 8. Reboot.
