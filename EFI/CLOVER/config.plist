@@ -23,6 +23,8 @@
 		</array>
 		<key>#smartUPS</key>
 		<false/>
+		<key>AutoMerge</key>
+		<false/>
 		<key>DSDT</key>
 		<dict>
 			<key>#DropOEM_DSM</key>
@@ -66,34 +68,52 @@
 				<true/>
 				<key>AddHDMI</key>
 				<true/>
+				<key>AddIMEI</key>
+				<false/>
+				<key>AddMCHC</key>
+				<false/>
 				<key>AddPNLF</key>
 				<true/>
 				<key>DeleteUnused</key>
 				<true/>
+				<key>FakeLPC</key>
+				<false/>
 				<key>FixACST</key>
 				<true/>
 				<key>FixADP1</key>
 				<true/>
+				<key>FixAirport</key>
+				<false/>
+				<key>FixDarwin</key>
+				<false/>
 				<key>FixDarwin7</key>
 				<true/>
 				<key>FixDisplay</key>
 				<true/>
+				<key>FixFirewire</key>
+				<false/>
 				<key>FixHDA</key>
 				<true/>
 				<key>FixHPET</key>
 				<true/>
-				<key>FixHeaders</key>
-				<true/>
+				<key>FixIDE</key>
+				<false/>
 				<key>FixIPIC</key>
 				<true/>
+				<key>FixIntelGfx</key>
+				<false/>
 				<key>FixLAN</key>
 				<true/>
+				<key>FixMutex</key>
+				<false/>
 				<key>FixRTC</key>
 				<true/>
 				<key>FixRegions</key>
 				<true/>
 				<key>FixS3D</key>
 				<true/>
+				<key>FixSATA</key>
+				<false/>
 				<key>FixSBUS</key>
 				<true/>
 				<key>FixShutdown</key>
@@ -141,7 +161,7 @@
 					<key>Comment</key>
 					<string>Rename HDEF to AZAL</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					SERFRg==
@@ -197,6 +217,8 @@
 			<key>ReuseFFFF</key>
 			<false/>
 		</dict>
+		<key>DisableASPM</key>
+		<false/>
 		<key>DropTables</key>
 		<array>
 			<dict>
@@ -219,6 +241,8 @@
 			</dict>
 		</array>
 		<key>FixHeaders</key>
+		<true/>
+		<key>FixMCFG</key>
 		<true/>
 		<key>HaltEnabler</key>
 		<true/>
@@ -283,11 +307,21 @@
 		<false/>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
+		<key>DisableCloverHotkeys</key>
+		<false/>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NeverDoRecovery</key>
 		<true/>
+		<key>NeverHibernate</key>
+		<false/>
 		<key>RtcHibernateAware</key>
+		<false/>
+		<key>SignatureFixup</key>
+		<false/>
+		<key>SkipHibernateTimeout</key>
+		<false/>
+		<key>StrictHibernate</key>
 		<false/>
 		<key>Timeout</key>
 		<integer>5</integer>
@@ -540,20 +574,30 @@
 		<true/>
 		<key>Audio</key>
 		<dict>
+			<key>#Inject</key>
+			<string>0x0887</string>
+			<key>AFGLowPowerState</key>
+			<false/>
 			<key>Inject</key>
-			<string>1</string>
+			<string>5</string>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
+		<key>NoDefaultProperties</key>
+		<false/>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
 			<true/>
 			<key>FixOwnership</key>
 			<true/>
+			<key>HighCurrent</key>
+			<false/>
 			<key>Inject</key>
 			<true/>
 		</dict>
+		<key>UseIntelHDMI</key>
+		<false/>
 	</dict>
 	<key>GUI</key>
 	<dict>
@@ -679,8 +723,10 @@
 		<false/>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
+		<key>ShowOptimus</key>
+		<false/>
 		<key>Theme</key>
-		<string>embedded</string>
+		<string>clover-theme-minimal</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
