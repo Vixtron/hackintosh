@@ -1,7 +1,7 @@
 ## My Hackintosh tutorial (works for my system, might not do as well for yours.)
 
 1. Run the VM, find a working tutorial and grab the VMWare image, download the app for macOS from the App Store.
-2. Partition your flashdrive using disk utility and use the GUID partition map. 
+2. Partition your flashdrive using disk utility and use the GUID partition map `diskutil eraseDisk "jhfs+" "USB" "GPTFormat" /dev/diskXsY`
 3. Mount your flashrive `diskutil mount diskXsY`
 4. Run the following to flash the macOS image to your flashdrive <br />
 ```bash
