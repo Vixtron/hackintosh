@@ -10,7 +10,6 @@ $ sudo "/Applications/Install macOS your macos.app/Contents/Resources/createinst
 5. Mount the EFI partition `diskutil mount diskXsY`
 6. Grab a working Clover bootloader and install it to your EFI partition, use the following configuration <br />
 ```
-Install Clover for UEFI booting only
 Install Clover to the ESP
 Drivers64UEFI
     AptioMemoryFix
