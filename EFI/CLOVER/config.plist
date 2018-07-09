@@ -579,7 +579,7 @@
 			<key>AFGLowPowerState</key>
 			<false/>
 			<key>Inject</key>
-			<string>5</string>
+			<integer>5</integer>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
@@ -696,8 +696,15 @@
 		<false/>
 		<key>#Hide</key>
 		<array>
-			<string>Windows</string>
-			<string>BOOTX64.EFI</string>
+			<string>48D2-EC6E</string>
+			<string>b035bc67-9b34-43bd-b43a-fb920971ba6e</string>
+			<string>589651ED9651CBDE</string>
+			<string>BC5E90725E9026E4</string>
+			<string>46789346789333A1</string>
+			<string>48C2BEE4C2BED582</string>
+			<string>42BCE80DBCE7F8F5</string>
+			<string>6EEB-D452</string>
+			<string>5A5EAFA65EAF7981</string>
 		</array>
 		<key>#Language</key>
 		<string>ru:0</string>
@@ -721,6 +728,32 @@
 		</dict>
 		<key>#TextOnly</key>
 		<false/>
+		<key>Custom</key>
+		<dict>
+			<key>Entries</key>
+			<array>
+				<dict>
+					<key>AddArguments</key>
+					<string>initrd=/initramfs-linux.img root=UUID=7da2dadd-106f-4594-887a-76c9a68a37c1 rw quiet splash loglevel=3 vga=current add_efi_memmap</string>
+					<key>CustomLogo</key>
+					<string>Theme</string>
+					<key>Disabled</key>
+					<false/>
+					<key>FullTitle</key>
+					<string>Arch Linux</string>
+					<key>Ignore</key>
+					<false/>
+					<key>Path</key>
+					<string>vmlinuz-linux</string>
+					<key>Type</key>
+					<string>Linux</string>
+					<key>Volume</key>
+					<string>BA8004D9-131F-A248-BA75-750F543A85C4</string>
+					<key>VolumeType</key>
+					<string>Internal</string>
+				</dict>
+			</array>
+		</dict>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>ShowOptimus</key>
