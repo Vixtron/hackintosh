@@ -35,4 +35,5 @@ Graphics drivers, I use NVIDIA so NVIDIA web drivers will do it for me, you can 
 
 **NOTE:** some diskutil commands might fail and tell you to try mounting them as readOnly, don't worry, you just have to use sudo in order to mount them as of the new 10.13.6 release.
 <br />
-That's it for now, I will update this repository if there are any future changes.
+
+## That's it for now, I will update this repository if there are any future changes.
