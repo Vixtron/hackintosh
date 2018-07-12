@@ -22,7 +22,7 @@ Drivers64UEFI
 Get your kexts for network, graphics drivers. <br />
 I use Realtek's kext for network, you can grab it here [link](https://bitbucket.org/RehabMan/os-x-realtek-network/downloads/) and extract it to `EFI/Clover/Kexts/Other` on your macOS hard drive/SSD. <br />
 Graphics drivers, I use NVIDIA so NVIDIA web drivers will do it for me, you can grab it here [link](https://www.insanelymac.com/forum/topic/324195-nvidia-web-driver-updates-for-macos-high-sierra-update-04252018/) <br />
-
+##### NOTE: some diskutil commands might fail and tell you to try mounting them as readOnly, don't worry, you just have to use sudo in order to mount them as of the new 10.13.6 release.
 That's it for now, I will update this repository if there are any future changes.
 
 ## Installation preview, Clover bootloader <br />
