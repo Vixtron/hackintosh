@@ -1,5 +1,5 @@
-### My Hackintosh tutorial - works for my system, might as well do for yours if you are lucky enough
-
+## My Hackintosh tutorial
+**NOTE:** This might not work for you, you might need different kernel extensions depending on your system hardware.
 1. Run the VM, find a working tutorial and grab the VMWare image, download the app for macOS from the App Store.
 2. Partition your flashdrive using disk utility and use the GUID partition map `diskutil eraseDisk "jhfs+" "USB" "GPTFormat" /dev/diskXsY`
 3. Mount your flashrive `diskutil mount diskXsY`
@@ -27,7 +27,7 @@ Drivers64UEFI
 9. Reboot macOS and install it.
 11. Reinstall Clover on your macOS hard drive with the kexts that you need in order to boot it.
 
-### Additional - Get your kexts for network, graphics drivers
+## Additional - Get your kexts for network, graphics drivers
 I use Realtek's kext for network, you can grab it here [link](https://bitbucket.org/RehabMan/os-x-realtek-network/downloads/) and extract it to `EFI/Clover/Kexts/Other` on your macOS hard drive/SSD. <br />
 Graphics drivers, I use NVIDIA so NVIDIA web drivers will do it for me, you can grab it here [link](https://www.insanelymac.com/forum/topic/324195-nvidia-web-driver-updates-for-macos-high-sierra-update-04252018/) 
 <br />
