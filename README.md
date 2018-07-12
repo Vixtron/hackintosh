@@ -2,7 +2,7 @@
 **NOTE:** This might not work for you, you might need different kernel extensions depending on your system hardware.
 1. Run the VM, find a working tutorial and grab the VMWare image, download the app for macOS from the App Store.
 2. Partition your flashdrive using disk utility and use the GUID partition map `diskutil eraseDisk "jhfs+" "USB" "GPTFormat" /dev/diskXsY`
-3. Mount your flashrive `diskutil mount diskXsY`
+3. Mount your flashrive root partition `diskutil mount diskXsY`
 4. Run the following to flash the macOS image to your flashdrive <br />
 ```bash
 $ sudo "/Applications/Install macOS your macos.app/Contents/Resources/createinstallmedia" --volume  /Volumes/USB --applicationpath "/Applications/Install macOS your macos.app" --nointeraction
