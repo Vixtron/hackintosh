@@ -1,3 +1,4 @@
+$ cat EFI/CLOVER/config.plist
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -203,7 +204,7 @@
 					<key>Comment</key>
 					<string>change HDAS to HDEF</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					SERBUw==
@@ -696,15 +697,7 @@
 		<false/>
 		<key>#Hide</key>
 		<array>
-			<string>48D2-EC6E</string>
-			<string>b035bc67-9b34-43bd-b43a-fb920971ba6e</string>
-			<string>589651ED9651CBDE</string>
-			<string>BC5E90725E9026E4</string>
-			<string>46789346789333A1</string>
-			<string>48C2BEE4C2BED582</string>
-			<string>42BCE80DBCE7F8F5</string>
-			<string>6EEB-D452</string>
-			<string>5A5EAFA65EAF7981</string>
+			<string></string>
 		</array>
 		<key>#Language</key>
 		<string>ru:0</string>
@@ -720,7 +713,7 @@
 		<key>#Scan</key>
 		<dict>
 			<key>Entries</key>
-			<true/>
+			<false/>
 			<key>Legacy</key>
 			<false/>
 			<key>Tool</key>
@@ -752,14 +745,64 @@
 					<key>VolumeType</key>
 					<string>Internal</string>
 				</dict>
+				<dict>
+					<key>CustomLogo</key>
+					<string>Theme</string>
+					<key>Disabled</key>
+					<false/>
+					<key>FullTitle</key>
+					<string>Windows</string>
+					<key>Ignore</key>
+					<false/>
+					<key>Path</key>
+					<string>\EFI\Microsoft\Boot\bootmgfw.efi</string>
+					<key>Type</key>
+					<string>Windows</string>
+					<key>Volume</key>
+					<string>A5572CD9-A75B-411D-AF94-2E194B774737</string>
+				</dict>
+				<dict>
+					<key>CustomLogo</key>
+					<string>Theme</string>
+					<key>Disabled</key>
+					<false/>
+					<key>FullTitle</key>
+					<string>macOS</string>
+					<key>Ignore</key>
+					<false/>
+					<key>NoCaches</key>
+					<false/>
+					<key>Type</key>
+					<string>OSX</string>
+					<key>Volume</key>
+					<string>DBD88A40-C0D6-C34D-93BC-A90A120DE531</string>
+				</dict>
 			</array>
+		</dict>
+		<key>Mouse</key>
+		<dict>
+			<key>Enabled</key>
+			<false/>
+			<key>Mirror</key>
+			<false/>
+		</dict>
+		<key>Scan</key>
+		<dict>
+			<key>Entries</key>
+			<false/>
+			<key>Legacy</key>
+			<false/>
+			<key>Linux</key>
+			<false/>
+			<key>Tool</key>
+			<true/>
 		</dict>
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>ShowOptimus</key>
 		<false/>
 		<key>Theme</key>
-		<string>clover-theme-minimal</string>
+		<string>clover-theme-next-black</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
