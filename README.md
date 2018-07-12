@@ -15,6 +15,12 @@ Drivers64UEFI
     AptioMemoryFix
     Fat-64
 ```
+## Preview
+![img2](https://raw.githubusercontent.com/Vixtron/hackintosh/master/clover2.png)
+
+## Installation partition
+![img1](https://raw.githubusercontent.com/Vixtron/hackintosh/master/clover1.png)
+
 7. Grab a [FakeSMC](https://github.com/kozlek/HWSensors/releases) binary, run it and extract FakeSMC.kext somewhere and move it to `EFI/Clover/Kexts/Other`
 8. Reboot.
 
@@ -24,9 +30,3 @@ I use Realtek's kext for network, you can grab it here [link](https://bitbucket.
 Graphics drivers, I use NVIDIA so NVIDIA web drivers will do it for me, you can grab it here [link](https://www.insanelymac.com/forum/topic/324195-nvidia-web-driver-updates-for-macos-high-sierra-update-04252018/) <br />
 ##### NOTE: some diskutil commands might fail and tell you to try mounting them as readOnly, don't worry, you just have to use sudo in order to mount them as of the new 10.13.6 release.
 That's it for now, I will update this repository if there are any future changes.
-
-## Installation preview, Clover bootloader <br />
-
-![img1](https://raw.githubusercontent.com/Vixtron/hackintosh/master/clover1.png)
-
-![img2](https://raw.githubusercontent.com/Vixtron/hackintosh/master/clover2.png)
