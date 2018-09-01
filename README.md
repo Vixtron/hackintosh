@@ -5,7 +5,7 @@
 3. Mount your flashrive root partition `diskutil mount diskXsY`
 4. Run the following to flash the macOS image to your flashdrive <br />
 ```bash
-$ sudo "/Applications/Install macOS your macos.app/Contents/Resources/createinstallmedia" --volume  /Volumes/USB --applicationpath "/Applications/Install macOS your macos.app" --nointeraction
+$ sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/USB/ --nointeraction
 ```
 5. Mount the EFI partition `diskutil mount diskXsY`
 6. Grab a working Clover bootloader and install it to your EFI partition, use the following configuration <br />
